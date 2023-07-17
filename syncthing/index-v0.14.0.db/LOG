@@ -1,0 +1,75 @@
+=============== Jun 27, 2023 (CST) ===============
+09:05:25.058367 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:05:25.082774 db@open opening
+09:05:25.084129 version@stat F·[] S·0B[] Sc·[]
+09:05:25.096845 db@janitor F·2 G·0
+09:05:25.096874 db@open done T·14.049918ms
+09:05:26.455366 memdb@flush N·46 S·1KiB
+09:05:26.461788 memdb@flush created L0@3 N·46 S·597B "\ndb..ion,v46":"\nla..ime,v19"
+09:05:26.461873 version@stat F·[1] S·597B[597B] Sc·[0.25]
+09:05:26.474572 memdb@flush committed F·1 T·19.119606ms
+09:05:26.474668 journal@remove removed @1
+09:05:26.474703 table@compaction range L-1 "":""
+09:05:26.474728 table@compaction L0·1 -> L1·0 S·597B Q·46
+09:05:26.481098 table@build created L1@4 N·4 S·207B "\ndb..ion,v46":"\nla..ime,v19"
+09:05:26.481149 version@stat F·[0 1] S·207B[0B 207B] Sc·[0.00 0.00]
+09:05:26.494116 table@compaction committed F~ S-390B Ke·0 D·42 T·19.366687ms
+09:05:26.494356 table@remove removed @3
+09:12:51.945409 db@close closing
+09:12:51.945691 db@close done T·278.084µs
+=============== Jun 27, 2023 (CST) ===============
+09:12:59.929140 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:12:59.929523 version@stat F·[0 1] S·207B[0B 207B] Sc·[0.00 0.00]
+09:12:59.929576 db@open opening
+09:12:59.929690 journal@recovery F·1
+09:12:59.936149 journal@recovery recovering @2
+09:12:59.944380 memdb@flush created L0@5 N·9 S·349B "\x04de..can,v54":"\npr..ion,v47"
+09:12:59.944760 version@stat F·[1 1] S·556B[349B 207B] Sc·[0.25 0.00]
+09:12:59.976142 db@janitor F·4 G·0
+09:12:59.976203 db@open done T·46.615975ms
+09:33:03.104160 db@close closing
+09:33:03.104421 db@close done T·259.532µs
+=============== Jun 27, 2023 (CST) ===============
+09:33:41.167487 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:33:41.167827 version@stat F·[1 1] S·556B[349B 207B] Sc·[0.25 0.00]
+09:33:41.167858 db@open opening
+09:33:41.167921 journal@recovery F·1
+09:33:41.168593 journal@recovery recovering @6
+09:33:41.183065 memdb@flush created L0@8 N·1 S·144B "\x04de..can,v57":"\x04de..can,v57"
+09:33:41.183414 version@stat F·[2 1] S·700B[493B 207B] Sc·[0.50 0.00]
+09:33:41.235838 db@janitor F·5 G·0
+09:33:41.235867 db@open done T·67.99837ms
+10:15:46.258907 db@close closing
+10:15:46.259089 db@close done T·179.765µs
+=============== Jun 27, 2023 (CST) ===============
+10:16:20.342152 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:16:20.342391 version@stat F·[2 1] S·700B[493B 207B] Sc·[0.50 0.00]
+10:16:20.342421 db@open opening
+10:16:20.342491 journal@recovery F·1
+10:16:20.344480 journal@recovery recovering @9
+10:16:20.360408 memdb@flush created L0@11 N·1 S·144B "\x04de..can,v59":"\x04de..can,v59"
+10:16:20.361000 version@stat F·[3 1] S·844B[637B 207B] Sc·[0.75 0.00]
+10:16:20.419056 db@janitor F·6 G·0
+10:16:20.419106 db@open done T·76.675577ms
+16:42:11.378487 db@close closing
+16:42:11.378910 db@close done T·414.447µs
+=============== Jun 27, 2023 (CST) ===============
+17:31:49.515307 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:31:49.515471 version@stat F·[3 1] S·844B[637B 207B] Sc·[0.75 0.00]
+17:31:49.515491 db@open opening
+17:31:49.515537 journal@recovery F·1
+17:31:49.516114 journal@recovery recovering @12
+17:31:49.533868 memdb@flush created L0@14 N·1 S·144B "\x04de..can,v61":"\x04de..can,v61"
+17:31:49.534269 version@stat F·[4 1] S·988B[781B 207B] Sc·[1.00 0.00]
+17:31:49.592375 db@janitor F·7 G·0
+17:31:49.592426 db@open done T·76.92786ms
+17:31:49.592521 table@compaction L0·4 -> L1·1 S·988B Q·62
+17:31:49.602899 table@build created L1@17 N·12 S·403B "\x04de..can,v61":"\npr..ion,v47"
+17:31:49.602958 version@stat F·[0 1] S·403B[0B 403B] Sc·[0.00 0.00]
+17:31:49.637573 table@compaction committed F-4 S-585B Ke·0 D·4 T·45.021147ms
+17:31:49.637709 table@remove removed @11
+17:31:49.637750 table@remove removed @8
+17:31:49.637780 table@remove removed @5
+17:31:49.637806 table@remove removed @4
+21:56:34.168624 db@close closing
+21:56:34.168729 db@close done T·102.95µs
